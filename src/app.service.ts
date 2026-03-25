@@ -6,8 +6,7 @@ export class AppService {
     success: boolean;
     data: { service: string; version: string };
     message: string;
-  } 
-  {
+  } {
     return {
       success: true,
       data: {
@@ -18,3 +17,4 @@ export class AppService {
     };
   }
 }
+
