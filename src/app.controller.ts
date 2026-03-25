@@ -11,9 +11,6 @@ export class AppController {
     data: { service: string; version: string };
     message: string;
   } {
-
     return this.appService.getHello();
-
   }
 }
-
